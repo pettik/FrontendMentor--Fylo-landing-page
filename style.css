@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+
+
+:root{
+    --very-dark-blue: hsl(243, 87%, 12%);
+--desaturated-blue: hsl(238, 22%, 44%);
+--bright-blue: hsl(224, 93%, 58%);
+--moderate-cyan: hsl(170, 45%, 43%);
+--light-grayish-blue: hsl(240, 75%, 98%);
+--light-gray: hsl(0, 0%, 75%);
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 230vh;
+
+    background: url('images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+
+    position: relative;
+  }
+
+  body::after {
+    content: ' ';
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    height: 100%;
+    width: 1440px;
+
+    position: absolute;
+    z-index: -1;
+
+    background: url('design/desktop-design.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+  }
+
+  /* HERO */
+  .container {
+    max-width: 700px;
+    margin: 8.125rem auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.attribution { display:none;font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
