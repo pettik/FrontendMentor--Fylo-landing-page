@@ -28,6 +28,8 @@ body {
     background-size: contain;
 
     position: relative;
+
+    font-size: 16px;
   }
 
   body::after {
@@ -36,7 +38,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
 
-    height: 100%;
+    height: 2335px;
     width: 1440px;
 
     position: absolute;
@@ -49,15 +51,36 @@ body {
     background-attachment: fixed;
   }
 
-  /* HERO */
   .container {
-    max-width: 700px;
-    margin: 8.125rem auto;
+    max-width: 1280px;
+    margin: 4rem auto;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .header__logo{
+    padding-top: 4rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header__logo ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    column-gap: 3.6rem;
+  }
+
+  .header__logo ul li a {
+    text-decoration: none;
+    font-weight: 800;
+
   }
 
 .attribution { display:none;font-size: 11px; text-align: center; }
