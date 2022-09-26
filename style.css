@@ -1,87 +1,172 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
 
-
-
-:root{
-    --very-dark-blue: hsl(243, 87%, 12%);
---desaturated-blue: hsl(238, 22%, 44%);
---bright-blue: hsl(224, 93%, 58%);
---moderate-cyan: hsl(170, 45%, 43%);
---light-grayish-blue: hsl(240, 75%, 98%);
---light-gray: hsl(0, 0%, 75%);
+:root {
+  --very-dark-blue: hsl(243, 87%, 12%);
+  --desaturated-blue: hsl(238, 22%, 44%);
+  --bright-blue: hsl(224, 93%, 58%);
+  --moderate-cyan: hsl(170, 45%, 43%);
+  --light-grayish-blue: hsl(240, 75%, 98%);
+  --light-gray: hsl(0, 0%, 75%);
 }
 
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    min-height: 230vh;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 230vh;
 
-    background: url('images/bg-header-desktop.png');
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
+  background: url('images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
 
-    position: relative;
+  position: relative;
 
-    font-size: 16px;
-  }
+  font-size: 16px;
+}
 
-  body::after {
-    content: ' ';
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+body::after {
+  content: ' ';
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 
-    height: 2335px;
-    width: 1440px;
+  height: 2335px;
+  width: 1440px;
 
-    position: absolute;
-    z-index: -1;
+  position: absolute;
+  z-index: -1;
 
-    background: url('design/desktop-design.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
-  }
+  background: url('design/desktop-design.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+}
 
-  .container {
-    max-width: 1280px;
-    margin: 4rem auto;
+.container {
+  max-width: 1280px;
+  margin: 4rem auto;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .header__logo{
-    padding-top: 4rem;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
+.header__logo {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 
-  .header__logo ul{
-    display:flex;
-    flex-direction: row;
-    list-style: none;
-    column-gap: 3.6rem;
-  }
+  margin-bottom: 5.5rem;
+}
 
-  .header__logo ul li a {
-    text-decoration: none;
-    font-weight: 800;
+.header__logo ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  column-gap: 3.6rem;
+}
 
-  }
+.header__logo ul li a {
+  text-decoration: none;
+  font-weight: 800;
+}
 
-.attribution { display:none;font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* HERO */
+.hero {
+  width: 100%;
+  display: flex;
+  align-items: top;
+  margin-bottom: 10rem;
+}
+
+.hero__text {
+  margin-top: 4.6rem;
+}
+
+.hero__text h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: 'Raleway', sans-serif;
+  color: var(--very-dark-blue);
+  margin-bottom: 1.1rem;
+  line-height: 1.5;
+}
+
+.hero__text p {
+  font-size: 1.125rem;
+  color: var(--very-dark-blue);
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.08px;
+  padding-right: 3rem;
+}
+
+.hero > * {
+  flex: 1;
+}
+
+.hero__img img {
+  width: 100%;
+}
+
+.hero__form {
+  display: flex;
+  column-gap: 1rem;
+  opacity: 0.3;
+}
+
+.hero__form input {
+  width: 320px;
+  padding: 0.85rem 1.1rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.6px;
+}
+
+.hero__form button {
+  width: 12.5rem;
+  border: none;
+  background-color: var(--bright-blue);
+  color: white;
+  letter-spacing: 0.5 px;
+  font-size: 0.9rem;
+}
+.hero .attribution {
+  display: none;
+  font-size: 11px;
+  text-align: center;
+}
+
+/* TESTIMONIAL */
+
+.testimonials {
+  display: flex;
+  background: url('images/bg-curve-desktop.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.testimonials-text,
+.testimonials-image {
+  flex: 1;
+}
+
+.testimonials-image img {
+  width: 100%;
+}
+
+.testimonials-text {
+  padding-top: 4rem;
+}
+.attribution {
+  display: none;
+}
