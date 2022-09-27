@@ -17,5 +17,5 @@ Your challenge is to build out this landing page and get it looking as close to 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 
-# UPDATE 26nd Sept 2022 - HERO Section DONE 💪
-<img src="26thSept2022.png">
+# UPDATE 27nd Sept 2022 - HERO Section DONE, starting section TESTIMONIALs 💪
+<img src="27thSept2022.png.png">
