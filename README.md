@@ -18,4 +18,4 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 
 # UPDATE 27nd Sept 2022 - HERO Section DONE, starting section TESTIMONIALs 💪
-<img src="27thSept2022.png.png">
+<img src="29thSept2022.png">
