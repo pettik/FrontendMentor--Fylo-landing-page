@@ -476,7 +476,8 @@ footer ul li a {
 
   .hero__form input,
   .hero__form button {
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
   }
 
   .hero__btn {
@@ -484,39 +485,95 @@ footer ul li a {
     display: inline-flex;
     align-items: center;
   }
-
+  /* ///////////////////////// */
+  /* TESTIMONIALS */
   .curve {
     max-width: 100vw;
+    height: 60px;
   }
 
   .testimonials {
     width: 100vw;
-    padding: 5%;
+    padding: 7%;
   }
 
   .testimonials-image {
-    width: 90vw;
+    order: -1;
+    width: 80vw;
+    margin: 0 auto;
     flex: initial;
   }
 
   .testimonials-image img {
-    width: 200px;
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+  .testimonials-text h2,
+  .subscribe h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .testimonials-text .description {
+    padding-right: 0;
+    font-size: 0.95rem;
+  }
+
+  .link {
+    margin: 1.5rem 20vw;
   }
 
   .testimonial-box {
-    width: 90vw;
+    width: 80vw;
+    line-height: 1.5;
+    margin-bottom: 3rem;
   }
 
+  .testimonial {
+    font-size: 0.8rem;
+  }
+
+  .testimonial-box .testimonial-author {
+    flex-direction: row;
+  }
+  /* ///////////////////////// */
+  /* subscribe */
   .subscribe {
     max-width: 100vw;
     width: 100vw;
     flex-direction: column;
+    padding: 4rem 3rem;
+  }
+
+  .subscribe .left p {
+    text-align: center;
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+  }
+
+  .subscribe form {
+    width: 75vw;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  .subscribe form input {
+    width: 100%;
+  }
+
+  .subscribe form .btn {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
   }
 
   .subscribe > *,
   .hero > * {
     flex: initial;
   }
+
   footer {
     width: 100%;
     grid-template-columns: 1fr;
