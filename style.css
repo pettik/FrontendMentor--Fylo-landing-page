@@ -17,7 +17,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  min-height: 230vh;
+  /* min-height: 230vh; */
 
   background: url('images/bg-header-desktop.png');
   background-repeat: no-repeat;
@@ -318,7 +318,7 @@ footer {
   margin: 0 auto;
   max-width: 1440px;
   padding: 5.75rem 5rem;
-  color: var(--light-gray);
+  color: rgb(255, 255, 253);
   background: hsl(243, 87%, 12%);
 }
 
@@ -346,7 +346,7 @@ footer ul li {
 }
 footer ul li a {
   text-decoration: none;
-  color: var(--light-gray);
+  color: rgb(255, 255, 253);
 }
 
 .col-2,
@@ -373,7 +373,7 @@ footer ul li a {
 .socials i {
   font-size: 0.9rem;
   display: inline-block;
-  color: var(--light-gray);
+  color: rgb(255, 255, 253);
 }
 
 .icona {
@@ -577,5 +577,17 @@ footer ul li a {
   footer {
     width: 100%;
     grid-template-columns: 1fr;
+    padding: 4rem 3rem;
+  }
+
+  footer .icon {
+    flex-direction: row;
+  }
+
+  .col-2,
+  .col-3,
+  .col-4 {
+    justify-self: left;
+    padding-top: 3rem;
   }
 }
