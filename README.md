@@ -18,7 +18,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 
 # DESKTOP version 🖥️ 
-<img src="desktop.jpg">
+<img src="desktop.jpeg">
 
 # MOBILE version 📱 
-<img src="desktop.jpg">
+<img src="mobile.jpeg">
