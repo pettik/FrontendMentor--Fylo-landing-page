@@ -1,4 +1,4 @@
-# ⚠️21st Sept 2022 - STARTING THIS PROJECT: Frontend Mentor - Fylo landing page with two column layout (UNDER CONSTRUCTION ‼️)
+# Frontend Mentor - Fylo landing page with two column layout
 
 ![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
 
@@ -17,5 +17,8 @@ Your challenge is to build out this landing page and get it looking as close to 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 
-# UPDATE 2nd Oct 2022 - Desktop version 🖥️ DONE💪 (hover states included)..next is mobile media queries 📲
-<img src="2ndOct2022.png">
+# DESKTOP version 🖥️ 
+<img src="desktop.jpg">
+
+# MOBILE version 📱 
+<img src="desktop.jpg">
