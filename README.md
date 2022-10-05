@@ -17,8 +17,10 @@ Your challenge is to build out this landing page and get it looking as close to 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 
-# DESKTOP version 🖥️ 
+# DESKTOP version 🖥️ ⬇⬇⬇
 <img src="desktop.jpeg">
 
-# MOBILE version 📱 
-<img src="mobile.jpeg">
+<hr>
+
+# MOBILE version 📱  ⬇⬇⬇
+<img src="mobile.jpeg" width="350px">
